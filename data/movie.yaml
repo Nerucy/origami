@@ -2,9 +2,9 @@ enable : true
 heading : Our
 headingSpan : Movies
 movieList :
-  - url : "http://www.youtube.com/embed/Eon_vtUCRVU?vq=highres"
-  - url : "http://www.youtube.com/embed/aWSRojkK-Ms?vq=highres"
-  - url : "http://www.youtube.com/embed/inn2EVgcvAc?vq=highres"
+  - url : "//www.youtube.com/embed/Eon_vtUCRVU?vq=highres"
+  - url : "//www.youtube.com/embed/aWSRojkK-Ms?vq=highres"
+  - url : "//www.youtube.com/embed/inn2EVgcvAc?vq=highres"
 # filterList :
 #  - filterType : photography
 #    filterTitle : Photography
