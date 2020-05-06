@@ -1,5 +1,4 @@
-baseURL = "http://www.origami-dance.tokyo/gh-pages_test/"
-#baseURL = "http://example.org/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
 # languageCode = "utf-8"
 title = "ORIGAMI Web Site"
