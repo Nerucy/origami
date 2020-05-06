@@ -1,0 +1,15 @@
+enable : true
+heading : About
+headingSpan : Us
+aboutItem : 
+- icon : fas fa-torii-gate
+  title : Japanese dance crew
+  content : We are formed by both male and female dancers specialising in urban and contemporary dance.
+
+- icon : fas fa-star-half-alt
+  title : Available in different lineups
+  content: We are happy to fully customise our performances by adapting your costuming to fit your theme.
+
+- icon : fas fa-globe-asia
+  title : Japan and worldwide
+  content : Wd are available for bookings in Japan and worldwide. Perfect entertainment option for events such as conferences, corporate events, private parties, themed events, festivals etc

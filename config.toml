@@ -1,0 +1,141 @@
+baseURL = "http://www.origami-dance.tokyo/gh-pages_test/"
+#baseURL = "http://example.org/"
+languageCode = "en-us"
+# languageCode = "utf-8"
+title = "ORIGAMI Web Site"
+theme = "meghna-hugo"
+canonifyurls = true
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "About Us"
+    URL = "about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Profile"
+    URL = "our-profile"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Movie"
+    URL = "movie"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Works"
+    URL = "works"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 6
+[params]
+home= "Home"
+logo = "images/ORIGAMI_logo.png"
+
+# Meta data"
+description = "Responsive Multipurpose Parallax HTML5 Template"
+author = "Nerucy"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    # PC
+    bgImage = "images/origami-all.JPG"
+    heading = "Ancient and modern meet"
+    content= "We are ORIGAMI. Dancers in Japan."
+    content2 = "Bringing together authentic Japanese flavour and present on one stage."
+    content3 = " Our shows appeal to audiences of all ages."
+    content4 = "~ We can be whatever we want ~"
+    btn = true
+    btnText = "About Us"
+    btnURL = "#about"
+    # SP 
+    bgImageSP = "images/origami-all-SP.JPG"
+    bgImageSP2 = "images/bg1.jpg"
+    headingSP = "Ancient and modern meet"
+    contentSP = "We are ORIGAMI. Dancers in Japan."
+    content2SP = "Bringing together authentic Japanese flavour and present on one stage."
+    content3SP = " Our shows appeal to audiences of all ages."
+    content4SP = "~ We can be whatever we want ~"
+    btnSP = false
+    btnTextSP ="About Us"
+    btnURLSP = "#about"
+
+    # movie
+    [params.movie]
+#    [params.movies]
+    url = "/movie/" 
+
+#    # call to action
+#    [params.cta]
+#    enable = true
+#    title = "Great Design & Incredible Features"
+#    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+#    btnURL = "#"
+#    btnText = "Start a project with us"
+#    bgImage = "images/bg1.jpg"
+#
+#    # counter
+#    [params.counter]
+#    enable = true
+#    bgImage = "images/bg1.jpg"
+
+#        [[params.counter.counterItem]]
+#        title = "Happy Clients"
+#        icon = "tf-ion-android-happy"
+#        count = "320"
+#
+#        [[params.counter.counterItem]]
+#        title = "Projects completed"
+#        icon = "tf-ion-archive"
+#        count = "565"
+#
+#        [[params.counter.counterItem]]
+#        title = "Positive feedback"
+#        icon = "tf-ion-thumbsup"
+#        count = "95"
+#
+#        [[params.counter.counterItem]]
+#        title = "Cups of Coffee"
+#        icon = "tf-ion-coffee"
+#        count = "2500"
+
+    # footer
+#    [params.footer]
+#        copyright = "Themefisher"
+#        copyrightURL = "http://www.themefisher.com"
+#
+#        # social Icons
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-facebook"
+#        url = "#"
+#
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-twitter"
+#        url = "#"
+#
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-google-outline"
+#        url = "#"
+#
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-youtube"
+#        url = "#"
+#
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-linkedin"
+#        url = "#"
+#
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-dribbble-outline"
+#        url = "#"
+#
+#        [[params.footer.socialIcon]]
+#        icon = "tf-ion-social-pinterest-outline"
+#        url = "#"

@@ -1,0 +1,40 @@
+{{ if .Site.Data.movie.enable}}
+{{"<!-- Movie Section -->" | safeHTML}}
+<section class="movie section" id="movie">
+    <div class="container">
+        <div class="row ">
+            <div class="col-xl-12 col-md-12 col-xs-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center">
+                    <h2> {{ with .Site.Data.movie.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.movie.headingSpan }} {{ . }} {{ end }}</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+                {{"<!-- /section title -->" | safeHTML}}
+            </div>
+        </div>
+        <div class=movie-area>
+        <div class="text-center">
+           {{ range .Site.Data.movie.movieList}}
+               <iframe class="youtube-player" type="text/html"
+                width="640" height="385"
+                src="{{ .url }}"
+                allowfullscreen frameborder="0">
+               </iframe>
+          {{ end }}
+        </div>
+        </div>
+        <div class=movie-area-sp>
+        <div class="text-center">
+           {{ range .Site.Data.movie.movieList}}
+               <iframe class="youtube-player" type="text/html"
+                width="320" height="192"
+                src="{{ .url }}"
+                allowfullscreen frameborder="0">
+               </iframe>
+          {{ end }}
+        </div>
+        </div>
+    </div>
+</section>
+{{"<!-- /Movie -->" | safeHTML}}
+{{ end }}

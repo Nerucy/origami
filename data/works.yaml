@@ -1,0 +1,37 @@
+enable : true
+heading : Our
+headingSpan : Works
+# filterList :
+#  - filterType : photography
+#    filterTitle : Photography
+#   
+#  - filterType : design
+#    filterTitle : Design
+#   
+#  - filterType : development
+#    filterTitle : Development
+
+worksItem :
+  - date : 2019/02/23
+    eventType : Military Ball
+    genre : Jazz
+    image : images/works/20190223.jpg
+    icon : tf-ion-android-search
+    place : The New Sanno
+    URL : /movie
+    
+  - date : 2019/04/24
+    eventType : Enployee convention
+    genre : Yosakoi (Japanese traditional dance)
+    image : images/works/20190424.jpeg
+    icon : tf-ion-android-search
+    place : Hilton Fukuoka Sea Hawk Hotel
+    URL : /movie
+    
+  - date : 2019/09/14
+    eventType : Formal patry
+    genre : Jazz, Heel
+    image : images/works/20190914.jpeg
+    icon : tf-ion-android-search
+    place : The New Sanno
+    URL : /movie

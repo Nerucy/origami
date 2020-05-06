@@ -1,0 +1,47 @@
+{{ if .Site.Params.banner.enable }}
+{{"<!-- Welcome Slider-->" | safeHTML}}
+<!--<section class="hero-area" class="img-fluid" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}"); background-size: contain;'>-->
+<section class="hero-area" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
+    <div class="block">
+        {{with .Site.Params.banner.icon}}
+        <div class="video-button">
+            <i class="{{ . }}"></i>
+        </div>
+        {{ end }}
+       {{with .Site.Params.banner.heading}} <h1>{{ . }}</h1>{{ end }}
+       {{with .Site.Params.banner.content}} <p>{{ . }}</p> {{ end }}
+       {{with .Site.Params.banner.content2}} <p>{{ . }}</p> {{ end }}
+       {{with .Site.Params.banner.content3}} <p>{{ . }}</p> {{ end }}
+       {{with .Site.Params.banner.content4}} <p>{{ . }}</p> {{ end }}
+       {{ if .Site.Params.banner.btn}}
+        <a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-transparent">{{ .Site.Params.banner.btnText}}</a>
+        {{ end }}
+    </div>
+</section>
+<section class="hero-area-sp" style='background-image: url("{{ .Site.Params.banner.bgImageSP | absURL }}");'>
+    <div class="block">
+        {{with .Site.Params.banner.icon}}
+        <div class="video-button">
+            <i class="{{ . }}"></i>
+        </div>
+        {{ end }}
+       {{with .Site.Params.banner.headingSP}} <h1>{{ . }}</h1>{{ end }}
+<!--       {{with .Site.Params.banner.contentSP}} <p>{{ . }}</p> {{ end }}
+       {{with .Site.Params.banner.content2SP}} <p>{{ . }}</p> {{ end }}
+       {{with .Site.Params.banner.content3SP}} <p>{{ . }}</p> {{ end }}
+       {{with .Site.Params.banner.content4SP}} <p>{{ . }}</p> {{ end }} -->
+       {{ if .Site.Params.banner.btnSP}}
+        <a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-transparent">{{ .Site.Params.banner.btnText}}</a>
+        {{ end }}
+    </div>
+</section>
+<section class="hero-area-sp2" style='background-image: url("{{ .Site.Params.banner.bgImageSP2 | absURL }}");'>
+    <div class="block">
+       {{with .Site.Params.banner.contentSP}} <p>{{ . }}</p> {{ end }}
+       {{with .Site.Params.banner.content2SP}} <p>{{ . }}</p> {{ end }}
+       {{with .Site.Params.banner.content3SP}} <p>{{ . }}</p> {{ end }}
+       {{with .Site.Params.banner.content4SP}} <p>{{ . }}</p> {{ end }}
+    </div>
+</section>
+{{"<!-- /Welcome Slider-->" | safeHTML}}
+{{end}}

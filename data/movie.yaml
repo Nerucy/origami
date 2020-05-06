@@ -1,0 +1,80 @@
+enable : true
+heading : Our
+headingSpan : Movies
+movieList :
+  - url : "http://www.youtube.com/embed/Eon_vtUCRVU?vq=highres"
+  - url : "http://www.youtube.com/embed/aWSRojkK-Ms?vq=highres"
+  - url : "http://www.youtube.com/embed/inn2EVgcvAc?vq=highres"
+# filterList :
+#  - filterType : photography
+#    filterTitle : Photography
+    
+#  - filterType : design
+#    filterTitle : Design
+    
+#  - filterType : development
+#    filterTitle : Development
+
+movieItem :
+#  - types : design
+#    image :
+#    icon : tf-ion-android-search
+#    URL : #
+#    title : Tag Design
+#    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+#    
+#  - types : development
+#    image : images/movie/movie-2.jpg
+#    icon : tf-ion-android-search
+#    URL : #
+#    title : Sound system
+#    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+#    
+#  - types : design development
+#    image : images/movie/movie-3.jpg
+#    icon : tf-ion-android-search
+#    URL : #
+#    title : Clock Product
+#    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+#    
+#  - types : photography development
+#    image : images/movie/movie-4.jpg
+#    icon : tf-ion-android-search
+#    URL : #
+#    title : Bottol Label
+#    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+#    
+#  - types : design
+#    image : images/movie/movie-5.jpg
+#    icon : tf-ion-android-search
+#    URL : #
+#    title : Shopping Bag
+#    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+#    
+#  - types : photography
+#    image : images/movie/movie-6.jpg
+#    icon : tf-ion-android-search
+#    URL : #
+#    title : Tag Design
+#    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+#    
+#  - types : development
+#    image : images/movie/movie-7.jpg
+#    icon : tf-ion-android-search
+#    URL : #
+#    title : Business Card
+#    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+#    
+#  - types : design development
+#    image : images/movie/movie-8.jpg
+#    icon : tf-ion-android-search
+#    URL : #
+#    title : Stationary Design
+#    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+#    
+#  - types : design photography
+#    image : images/movie/movie-2.jpg
+#    icon : tf-ion-android-search
+#    URL : #
+#    title : Tag Design
+#    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!

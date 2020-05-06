@@ -1,0 +1,38 @@
+{{ if .Site.Data.works.enable}}
+{{"<!-- Works Section -->" | safeHTML}}
+<section class="works section" id="works">
+    <div class="container">
+        <div class="col-xl-12">
+            {{"<!-- section title -->" | safeHTML}}
+            <div class="title text-center">
+                <h2> {{ with .Site.Data.works.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.works.headingSpan }} {{ . }} {{ end }}</span></h2>
+                <div class="border-meghna"></div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+        </div>
+<!--        <div class="row filtr-container"> -->
+        <div class="row">
+            {{"<!-- works item -->" | safeHTML}}
+            {{ range .Site.Data.works.worksItem }}
+            <div class="col-lg-4 col-md-6 col-xs-12">
+                <div class="works-block mb-4">
+                    <img class="img-fluid" src="{{ .image | absURL}}" alt="work-image">
+<!--                    <img class="mx-auto d-block" src="{{ .image | absURL}}" alt="work-image"> -->
+                    <div class="caption">
+                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | absURL}}" data-lightbox="image-1">
+                            <i class="{{ .icon }}"></i>
+                        </a>
+                      <!--  <h4><a href="{{ .URL | absURL }}">{{ .genre }}</a></h4> -->
+                        <h4><a>{{ .genre }}</a></h4>
+                        <p>Date: {{ .date }}</p>
+                        <p>Event type: {{ .eventType }}</p>
+                        <p>Place: {{ .place }}</p>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{"<!-- /Works -->" | safeHTML}}
+{{ end }}

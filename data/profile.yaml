@@ -1,0 +1,73 @@
+enable : true
+heading : Our
+headingSpan : Profile
+profileMember :
+  - image : images/profile/sachi.jpg
+    name : Sachi
+    designation : Leader/Dancer/Choreographer
+    description :
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
+      - icon : tf-ion-social-dribbble-outline
+        url : "#"
+      
+  - image : images/profile/yuki.jpg
+    name : YU-KI
+    designation : Dancer/Choreographer
+    description :
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
+      - icon : tf-ion-social-dribbble-outline
+        url : "#"
+      
+  - image : images/profile/ika.jpg
+    name : IKA
+    designation : Dancer/Choreographer/Model
+    description :
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
+      - icon : tf-ion-social-dribbble-outline
+        url : "#"
+      
+  - image : images/profile/dummy.jpg
+    name : Y-u-kari
+    designation : Dancer/Choreographer
+    description :
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
+      - icon : tf-ion-social-dribbble-outline
+        url : "#"
+
+  - image : images/profile/naru.jpg
+    name : Naru
+    designation : Dancer/Choreographer
+    description :
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "#"
+      - icon : tf-ion-social-twitter
+        url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "#"
+      - icon : tf-ion-social-dribbble-outline
+        url : "#"
