@@ -35,3 +35,11 @@ worksItem :
     icon : tf-ion-android-search
     place : The New Sanno
     URL : /movie
+
+  - date : 2019/11/10
+    eventType : Recreation
+    genre : Theme park dance
+    image : images/works/20191110.jpg
+    icon : tf-ion-android-search
+    place : Nursing home
+    URL : /movie
