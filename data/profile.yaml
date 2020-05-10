@@ -15,7 +15,7 @@ profileMember :
         url : "#"
       - icon : tf-ion-social-dribbble-outline
         url : "#"
-      
+
   - image : images/profile/yuki.jpg
     name : YU-KI
     designation : Dancer/Choreographer
@@ -43,9 +43,9 @@ profileMember :
         url : "#"
       - icon : tf-ion-social-dribbble-outline
         url : "#"
-      
-  - image : images/profile/dummy.jpg
-    name : Y-u-kari
+
+  - image : images/profile/y-u-kari.jpeg
+    name : y-u-kari
     designation : Dancer/Choreographer
     description :
     socialIcon :
@@ -57,7 +57,7 @@ profileMember :
         url : "#"
       - icon : tf-ion-social-dribbble-outline
         url : "#"
-
+      
   - image : images/profile/naru.jpg
     name : Naru
     designation : Dancer/Choreographer
